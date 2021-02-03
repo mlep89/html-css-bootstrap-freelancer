@@ -1,0 +1,70 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header menu + jumbotron */
+#first_cont {
+  height: 60px;
+  color: white;
+  background-color: #2c3e50;
+}
+.jumbo {
+  height: 400px;
+  text-align: center;
+  color: white;
+  background-color: #1abc9c;
+}
+
+
+/* portfolio */
+.portfolio_main {
+  width: 80%;
+  padding: 10px;
+}
+.mix_portfolio {
+  padding: 10px;
+}
+.portfolio {
+  height: 250px;
+  border-radius: 10px;
+}
+.house {
+  background-color: #ba4b63;
+}
+.cake {
+  background-color: #1ea4b6;
+}
+.circus {
+  background-color: #140f0f;
+}
+.play {
+  background-color: #1c83c1;
+}
+.box {
+  background-color: #0e38b5;
+}
+.submarine {
+  background-color: #ccb2a3;
+}
+
+
+/* contact me */
+.contact_main {
+  width: 80%;
+  padding: 10px;
+  height: 600px;
+}
+
+
+/* footer */
+.footer_main {
+  background-color: #3a546d;
+  padding: 10px;
+  height: 300px;
+}
+.bottom_footer {
+  background-color: #2c3e50;
+  height: 100px;
+}
