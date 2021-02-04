@@ -8,92 +8,181 @@
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
+
     <header>
-      <div id="first_cont" class="container-fluid">
+      <div class="first_cont">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+              <h3>START Bootstrap</h3>
+            </div>
+            <div class="col-xs-6 text-right visible-xs">
+                <span id="menu_hamburger" class="glyphicon glyphicon-menu-hamburger"</span>
+            </div>
+            <div class="col-xs-6 text-right hidden-xs">
+                <nav>
+                  <ul>
+                    <li class="uppercase" >Portfolio</li>
+                    <li class="uppercase" >About</li>
+                    <li class="uppercase" >Contact</li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- first content -->
+      <div class="container-fluid jumbo">
         <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+          <div class="col-xs-12">
+            <img src="img/avataaars.svg" alt="" class"img-circle img-responsive center-block">
+          </div>
+          <div class="col-xs-12">
+            <h1>Start Bootstrap</h1>
+          </div>
+          <div class="col-md-12">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4"></div>
+          </div>
+          <div class="col-md-12">
+            <h3 class="uppercase" >graphic artist - web designer - illustrator</h3>
+          </div>
         </div>
       </div>
     </header>
 
-<!-- first content -->
-<div class="container-fluid jumbo">
-  <div class="row">
-    <div class="col-md-12">
-      <img src="" alt="" class"img-circle">
-    </div>
-    <div class="col-md-12">
-      <h1>Start Bootstrap</h1>
-    </div>
-    <div class="col-md-12">
-      <div class="col-md-4"></div>
-      <div class="col-md-4"></div>
-      <div class="col-md-4"></div>
-    </div>
-    <div class="col-md-12">
-      <h3>graphic artist - web designer - illustrator</h3>
-    </div>
-  </div>
-</div>
+    <main>
+      <!-- portfolio section -->
+      <section>
+        <div class="portfolio_main text-center">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <h3 class="uppercase">portfolio</h3>
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/cabin.png" alt="">
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/cake.png" alt="">
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/circus.png" alt="">
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/game.png" alt="">
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/safe.png" alt="">
+              </div>
+              <div class="col-xs-12">
+                <img  class="img-responsive center-block" src="img/submarine.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<!-- second content -->
-<div class="portfolio_main clearfix">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h2></h2>
+
+      <!-- about section -->
+      <section>
+        <div class="about">
+          <div class="text_container">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 text-center">
+                  <h2 class="uppercase">about</h2>
+                </div>
+                <div class="col-md-6"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+                <div class="col-md-6"><p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                <div class="col-xs-12 text-center">
+                  <div class="container">
+                    <div class="btn_element">
+                      <span class="glyphicon glyphicon-download-alt"></span>
+                    </div>
+                    <div class="btn_element">
+                      <p>Download</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact me section -->
+      <section>
+        <div class="contact_main">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="uppercase text-center">Contact Me</h2>
+              </div>
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-minus"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-minus"></span>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleName">Name</label>
+                      <input type="email" class="form-control" id="input_name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="input_mail">
+                    </div>
+                    <label for="input_phone">Phone Number</label>
+                    <input type="email" class="form-control" id="input_phone">
+                    </div>
+                    <div class="">
+                      <label for="">Message</label>
+                      <textarea id="text_area" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" id="send_btn" class="btn btn-default">Send</button>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <!-- fifth content -->
+      <div class="footer_main text-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="uppercase">location</p>
+              <p>2215 Jhon Daniel Drive CLark, MO 54243</p>
+            </div>
+            <div class="col-xs-12">
+              <p class="uppercase">around the web</p>
+              <p><i class="bi bi-facebook"></i></p>
+            </div>
+            <div class="col-xs-12">
+              <p class="uppercase">about frelancer</p>
+              <p>Freelancer is free to use, open source Bootstrap theme created by <span id="span_boot">Start Bootstrap</span>.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-12">
-          <div class="col-md-4 portfolio house"></div>
-          <div class="col-md-4 portfolio cake"></div>
-          <div class="col-md-4 portfolio circus"></div>
+      <div class="container-fluid bottom_footer text-center">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Copyright © Your Website 2019</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-12">
-        <div class="col-md-4 portfolio play"></div>
-        <div class="col-md-4 portfolio box"></div>
-        <div class="col-md-4 portfolio submarine"></div>
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
 
-<!-- third content -->
-<div class="container-fluid jumbo">
-  <div class="row">
-    <div class="col-md-12"></div>
-    <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    <div class="col-md-12"></div>
-  </div>
-</div>
-
-<!-- fourth content -->
-<div class="contact_main clearfix">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h2></h2>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- fifth content -->
-<div class="footer_main clearfix">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-4"></div>
-      <div class="col-md-4"></div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid bottom_footer">
-  <div class="row">
-    <div class="col-md-12"></div>
-  </div>
-</div>
   </body>
 </html>
